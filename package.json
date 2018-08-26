@@ -1,0 +1,22 @@
+{
+    "name": "sassyfrass",
+    "displayName": "Sassyfrass",
+    "description": "colorz",
+    "version": "0.0.1",
+    "publisher": "jimmydc",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sassyfrass",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sassyfrass-color-theme.json"
+            }
+        ]
+    }
+}
