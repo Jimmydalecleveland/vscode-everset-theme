@@ -1,7 +1,9 @@
 # Change Log
-All notable changes to the "sassyfrass" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to the "everset" extension will be documented in this file.
 
 ## [Unreleased]
-- Initial release
+
+## [0.1.0] - 2018-08-26
+### Added
+- Initial Theme setup
+

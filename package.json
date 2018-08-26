@@ -1,22 +1,28 @@
 {
-    "name": "sassyfrass",
-    "displayName": "Sassyfrass",
-    "description": "colorz",
-    "version": "0.0.1",
-    "publisher": "jimmydc",
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Sassyfrass",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Sassyfrass-color-theme.json"
-            }
-        ]
-    }
+  "name": "everset",
+  "displayName": "Everset",
+  "description": "A VS Code theme optimized for JS/React, inspired by forest sunsets",
+  "version": "0.1.0",
+  "publisher": "jimmydc",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dark Theme",
+    "Forest Theme",
+    "Everset"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Everset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Everset-color-theme.json"
+      }
+    ]
+  }
 }
