@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "publisher": "jimmydc",
   "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jimmydalecleveland/vscode-everset-theme"
+  },
   "engines": {
     "vscode": "^1.20.0"
   },
