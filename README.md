@@ -1,5 +1,13 @@
 # Everset - VS Code Dark Theme
-A theme optimized for JS/React, inspired by forest sunsets. This is a work in progress and everything about the theme is subject to change before the first full version (i.e. 1.0.0).
+### A theme optimized for JS/React, inspired by forest sunsets. 
+
+The idea driving this theme's creation was to have a clearer color separation between JSX and Javascript. I entertained the idea of having warmer tones for JSX and cooler for Javascript, and felt that the theme of a forest in sunset would be a fun challenge to create. I'll continue fixing issues and adding more language support in the near future.
+
+I personally enjoy subtle color variations in my themes, but if you're looking for a dark theme with a focus on accessibility, I'd recommend Sarah Drasner's [Night Owl](https://github.com/sdras/night-owl-vscode-theme) as an alternative.
+
+*This is a work in progress and everything about the theme is subject to change before the first full version (i.e. 1.0.0).*
+
+![Everset Example with React](/images/everset-example--react.png?raw=true)
 
 ## Features
 - Sidebar colors to match editor (this really should be the default, but since so many themes lack this I'm calling it a feature).

@@ -2,7 +2,7 @@
   "name": "everset",
   "displayName": "Everset",
   "description": "A VS Code theme optimized for JS/React, inspired by forest sunsets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "jimmydc",
   "icon": "images/logo.png",
   "repository": {
@@ -18,7 +18,8 @@
   "keywords": [
     "Dark Theme",
     "Forest Theme",
-    "Everset"
+    "Everset",
+    "React Theme"
   ],
   "contributes": {
     "themes": [

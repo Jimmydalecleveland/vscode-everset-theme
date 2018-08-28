@@ -2,6 +2,10 @@
   "name": "everset",
   "type": "dark",
   "colors": {
+    "titleBar.activeBackground": "#08162e",
+    "titleBar.activeForeground": "#607494",
+    "titleBar.inactiveBackground": "#08162e",
+    "titleBar.inactiveForeground": "#758aac",
     "editorCursor.foreground": "#fa9474",
     "editorCursor.background": "#030f24",
     "editor.background": "#0e192c",
@@ -15,6 +19,9 @@
     "editorGroup.border": "#11264b",
     "editorBracketMatch.border": "#fa9474",
     "editorWidget.border": "#11264b",
+    "editorRuler.foreground": "#34425a",
+    "editor.lineHighlightBorder": "#16253a",
+    "menu.background": "#051022",
     "peekViewTitle.background": "#061124",
     "peekViewEditor.background": "#061124",
     "peekViewResult.background": "#061124",
@@ -39,12 +46,12 @@
     "activityBar.foreground": "#a4afed",
     "scrollbar.shadow": "#2b4064",
     "scrollbarSlider.activeBackground": "#4397cfaa",
-    "scrollbarSlider.background": "#2b4064",
+    "scrollbarSlider.background": "#2b406488",
     "scrollbarSlider.hoverBackground": "#4397cf88",
     "editorLineNumber.foreground": "#8086a8",
     "editorLineNumber.activeForeground": "#d6d9ec",
     "gitlens.trailingLineForegroundColor": "#556886",
-    "editorOverviewRuler.selectionHighlightForeground": "#ff0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#ffd58888",
     "gitDecoration.modifiedResourceForeground": "#faaa74",
     "editorGutter.modifiedBackground": "#faaa74",
     "gitDecoration.untrackedResourceForeground": "#78e7c6",
@@ -61,8 +68,7 @@
     "button.background": "#14223a",
     "button.foreground": "#bff0ff",
     "dropdown.background": "#14223a",
-    "dropdown.foreground": "#bff0ff",
-    "menu.background": "#ff0000"
+    "dropdown.foreground": "#bff0ff"
   },
   "tokenColors": [
     {
