@@ -4,8 +4,8 @@
   "colors": {
     "titleBar.activeBackground": "#08162e",
     "titleBar.activeForeground": "#607494",
-    "titleBar.inactiveBackground": "#08162e",
-    "titleBar.inactiveForeground": "#758aac",
+    "titleBar.inactiveBackground": "#203353",
+    "titleBar.inactiveForeground": "#607494",
     "editorCursor.foreground": "#fa9474",
     "editorCursor.background": "#030f24",
     "editor.background": "#0e192c",
