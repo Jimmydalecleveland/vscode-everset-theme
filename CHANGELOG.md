@@ -17,3 +17,10 @@ All notable changes to the "everset" extension will be documented in this file.
 ### Added
 - JSON support (ALL 8 LEVELS!)
 - Markdown initial setup (just a few quick additions, more coming next update)
+
+## [0.5.0] - 2018-08-28
+### Added
+- CSS support tweaks to be more uniform with other languages.
+- Subdued indent guides, and whitespace if shown to match other rules.
+- Changed colors for added and removed text in diffEditor. 
+- Added alternate colors for Status Bar (bottom bar) during debugging.

@@ -19,6 +19,9 @@
     "editorGroup.border": "#11264b",
     "editorBracketMatch.border": "#fa9474",
     "editorWidget.border": "#11264b",
+    "editorIndentGuide.background": "#212b3d",
+    "editorIndentGuide.activeBackground": "#3c4e6e",
+    "editorWhitespace.foreground": "#212b3d",
     "editorRuler.foreground": "#34425a",
     "editor.lineHighlightBorder": "#16253a",
     "menu.background": "#051022",
@@ -56,14 +59,16 @@
     "editorGutter.modifiedBackground": "#faaa74",
     "gitDecoration.untrackedResourceForeground": "#78e7c6",
     "editorGutter.addedBackground": "#9fe0cd",
+    "diffEditor.removedTextBackground": "#ee475033",
+    "diffEditor.insertedTextBackground": "#9fe0cd33",
     "list.warningForeground": "#51ec72",
     "editorWarning.foreground": "#5fe9a4",
     "editorError.border": "#ee4750",
     "editorError.foreground": "#faaa74",
     "statusBar.background": "#051022",
     "statusBar.foreground": "#556886",
-    "statusBar.debuggingBackground": "#051022",
-    "statusBar.debuggingForeground": "#556886",
+    "statusBar.debuggingBackground": "#2554ac",
+    "statusBar.debuggingForeground": "#071935",
     "statusBar.noFolderBackground": "#051022",
     "statusBar.noFolderForeground": "#556886",
     "statusBarItem.prominentBackground": "#0a2044",
@@ -296,7 +301,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#4397cf"
       }
     },
     {
@@ -363,9 +368,12 @@
     },
     {
       "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
+      "scope": [
+        "source.sass keyword.control",
+        "entity.other.attribute-name.id.css"
+      ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#ee4750"
       }
     },
     {
