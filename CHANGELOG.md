@@ -24,3 +24,8 @@ All notable changes to the "everset" extension will be documented in this file.
 - Subdued indent guides, and whitespace if shown to match other rules.
 - Changed colors for added and removed text in diffEditor. 
 - Added alternate colors for Status Bar (bottom bar) during debugging.
+
+
+## [0.6.0] - 2018-09-03
+### Added
+- Added 'Everset - Italic' alternate theme for better support of italic script fonts (e.g. Operator Mono, Dank Mono, etc.)

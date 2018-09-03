@@ -1,5 +1,5 @@
 {
-  "name": "everset",
+  "name": "everset italic",
   "type": "dark",
   "colors": {
     "titleBar.activeBackground": "#08162e",
@@ -95,6 +95,43 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#556886"
+      }
+    },
+    {
+      "name": "Italics",
+      "scope": [
+        "italic",
+        "keyword.control",
+        "storage.modifier",
+        "support.function",
+        "variable.language",
+        "variable.parameter",
+        "variable.other.object.property",
+        "variable.other.constant",
+        "entity.name.method.js",
+        "entity.other.attribute-name",
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "source.sass keyword.control",
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "markup.italic",
+        "markup.quote punctuation.definition.blockquote.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "No Italic Overrides",
+      "scope": [
+        "entity.name.function",
+        "keyword.control.conditional",
+        "keyword.control.switch"
+      ],
+      "settings": {
+        "fontStyle": ""
       }
     },
     {
@@ -196,7 +233,7 @@
     },
     {
       "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
+      "scope": ["meta.block variable.other", "variable.other.constant"],
       "settings": {
         "foreground": "#66c8cf"
       }
@@ -422,7 +459,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -432,7 +468,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FF5370"
       }
     },
@@ -572,7 +607,6 @@
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#f07178"
       }
     },
@@ -621,14 +655,6 @@
       "settings": {
         "background": "#65737E",
         "foreground": "#65737E"
-      }
-    },
-    {
-      "name": "Markup - Quote",
-      "scope": ["markup.quote"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": ""
       }
     },
     {
