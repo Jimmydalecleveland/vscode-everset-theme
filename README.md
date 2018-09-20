@@ -1,5 +1,5 @@
 # Everset - VS Code Dark Theme
-### A theme optimized for JS/React, inspired by forest sunsets. (Italic version included) 
+### A theme optimized for JS/React, with colors inspired by forests during sunset. *(Italic version included for script fonts such as [Operator Mono](https://www.typography.com/fonts/operator/styles/), [Dank Mono](https://dank.sh/), etc.)* 
 
 The idea driving this theme's creation was to have a clearer color separation between JSX and Javascript. I entertained the idea of having warmer tones for JSX and cooler for Javascript, and felt that the theme of a forest in sunset would be a fun challenge to create. I'll continue fixing issues and adding more language support in the near future.
 
@@ -8,6 +8,8 @@ I personally enjoy subtle color variations in my themes, but if you're looking f
 *This is a work in progress and everything about the theme is subject to change before the first full version (i.e. 1.0.0).*
 
 ![Everset Example with React](/images/everset-example--react.png?raw=true)
+
+*The font used in the screenshot is [Input Mono](http://input.fontbureau.com/), for anyone interested.*
 
 ## Features
 - Sidebar colors to match editor (this really should be the default, but since so many themes lack this I'm calling it a feature).
