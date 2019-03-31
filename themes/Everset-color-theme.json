@@ -148,7 +148,12 @@
     },
     {
       "name": "Keyword, Control, Import",
-      "scope": ["keyword.control.import", "keyword.control.from"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.export",
+        "keyword.control.default"
+      ],
       "settings": {
         "foreground": "#44aabb"
       }
@@ -212,7 +217,7 @@
       "name": "Braces",
       "scope": ["meta.brace"],
       "settings": {
-        "foreground": "#f2d6fa"
+        "foreground": "#c494d1"
       }
     },
     {

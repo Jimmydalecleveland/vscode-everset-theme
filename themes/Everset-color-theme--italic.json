@@ -185,7 +185,12 @@
     },
     {
       "name": "Keyword, Control, Import",
-      "scope": ["keyword.control.import", "keyword.control.from"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.export",
+        "keyword.control.default"
+      ],
       "settings": {
         "foreground": "#44aabb"
       }
