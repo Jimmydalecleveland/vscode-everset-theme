@@ -152,7 +152,7 @@
       "name": "Variable property",
       "scope": ["variable.other.property"],
       "settings": {
-        "foreground": "#96f1f1"
+        "foreground": "#87f2f2"
       }
     },
     {
@@ -173,12 +173,19 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#4edcf6"
+        "foreground": "#449dbb"
       }
     },
     {
       "name": "Keyword, Control",
       "scope": "keyword.control",
+      "settings": {
+        "foreground": "#a4bbed"
+      }
+    },
+    {
+      "name": "Keyword, Control, Import",
+      "scope": ["keyword.control.import", "keyword.control.from"],
       "settings": {
         "foreground": "#44aabb"
       }
@@ -235,14 +242,14 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other", "variable.other.constant"],
       "settings": {
-        "foreground": "#66c8cf"
+        "foreground": "#66ddff"
       }
     },
     {
       "name": "Braces",
       "scope": ["meta.brace"],
       "settings": {
-        "foreground": "#b69cc4"
+        "foreground": "#c494d1"
       }
     },
     {
