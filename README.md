@@ -8,7 +8,7 @@ I personally enjoy subtle color variations in my themes, but if you're looking f
 
 **Update**: With the release of 1.0.0, We are finally done with the major changes to the color theme. It was tricky to add diversity to the "cool" colors side, but we've finally settled on a set we are happy with. If you are unhappy with the changes let me know, and if there is enough interest in keeping the original "cool" colors, I'll consider add a "classic" theme with them.
 
-![Everset Example with React](/images/everset-example--react.png?raw=true)
+![Everset Example with React](/images/everset-example--react.jpg?raw=true)
 
 _The font used in the screenshot is [Input Mono](http://input.fontbureau.com/), for anyone interested._
 
