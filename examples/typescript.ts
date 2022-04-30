@@ -1,15 +1,36 @@
-declare namespace JSX {
-  interface IntrinsicElements {
-    [elemName: string]: any;
-  }
+interface Dragon {
+  breathAttack: () => number;
+  tailAttack: () => number;
 }
 
-interface PropsType {
-  children: JSX.Element;
-  name: string;
+interface Lich {
+  miasma: () => number;
 }
-class Component extends React.Component<PropsType, {}> {
-  render() {
-    return <h2>{this.props.children}</h2>;
+
+interface UndeadDragon extends Dragon, Lich {}
+
+const rimeFang: UndeadDragon = {
+  breathAttack() {
+    return 48;
+  },
+  tailAttack() {
+    return 7;
+  },
+  miasma() {
+    return 20;
+  },
+};
+
+const myArr = [1, 2, 3];
+
+const map = <InType, OutType>(arr: InType[], cb: (val: InType) => OutType) => {
+  let newArr = [];
+  for (const item of arr) {
+    newArr.push(cb(item));
   }
-}
+  return newArr;
+};
+
+const arr2 = map(myArr, (val) => {
+  return val * 2;
+});
