@@ -9,7 +9,7 @@ interface Lich {
 
 interface UndeadDragon extends Dragon, Lich {}
 
-const rimeFang: UndeadDragon = {
+const urDragon: UndeadDragon = {
   breathAttack() {
     return 48;
   },
@@ -21,7 +21,7 @@ const rimeFang: UndeadDragon = {
   },
 };
 
-const myArr = [1, 2, 3];
+const myArr: number[] = [1, 2, 3];
 
 const map = <InType, OutType>(arr: InType[], cb: (val: InType) => OutType) => {
   let newArr = [];
