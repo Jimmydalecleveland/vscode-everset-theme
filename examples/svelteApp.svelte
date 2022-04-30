@@ -1,5 +1,14 @@
 <script>
 	export let name;
+
+	const arr = [1, "two", true];
+	const newArr = arr.map((val) => {
+		if (typeof val === 'string') {
+			return val.length
+		}
+		return val
+	});
+	console.log(newArr);
 </script>
 
 <main>
